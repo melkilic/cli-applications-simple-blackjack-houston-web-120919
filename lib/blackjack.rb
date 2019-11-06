@@ -29,8 +29,16 @@ return sum
 end
 
 def hit?(current)
-  prompt_user
-  get_user_input
+prompt_user
+  input=get_user_input
+if input == "s"
+  current
+  elsif input == "h"
+    current += deal_card
+      else
+    invalid_command
+     end
+  end
 end
 
 def invalid_command
