@@ -28,16 +28,16 @@ display_card_total(sum)
 return sum
 end
 
-def hit?(current)
+def hit?(current_total)
 prompt_user
   input=get_user_input
-if input == "s"
-  current
-  elsif input == "h"
-    current += deal_card
+if input == "h"
+current_total += deal_card
+  elsif input == "s"
+    current_total
       else
     invalid_command
-    current
+    current_total
      end
   end
 
