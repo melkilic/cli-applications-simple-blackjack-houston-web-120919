@@ -44,8 +44,6 @@ if input == "s"
 
 def invalid_command
 puts 'Please enter a valid command'
-prompt_user
-get_user_input
 end
 
 #####################################################
