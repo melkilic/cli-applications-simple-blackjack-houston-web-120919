@@ -37,7 +37,7 @@ current_total += deal_card
     current_total
       else
     invalid_command
-    #hit?(current_total)
+    hit?(current_total)
      end
   end
 
