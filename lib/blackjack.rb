@@ -37,7 +37,7 @@ if input == "s"
     current += deal_card
       else
     invalid_command
-    puts Type 'h' to hit or 's' to stay"
+    puts "Type 'h' to hit or 's' to stay"
      end
   end
 
